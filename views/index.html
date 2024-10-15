@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(https://cdn.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-7-full.jpg);
+
+        }
+        form{
+            background: rgba(255,255,255,0.8);
+            padding: 60px;
+            max-width: 600px;
+            margin: 100px;
+            border-radius: 30px;
+        }
+        h1{
+            text-align: center;
+            font-size: large;
+            color: crimson;
+
+        }
+        label{
+            display: grid;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input,textarea,button{
+            width:calc(100%-22px);
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>CODERONE FEEDBACK SYSTEM FORM</h1>
+    <form action="">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br> <br>
+        <label for="Contactnumber">ContactNumber:</label>
+        <input type="text" id="Contactnumber" name="Contactnumber">
+        <br> <br>
+        <label for="email">Email:</label>
+        <input type="email" id="Email" name="Email">
+        <br> <br>
+        <label for="feedback">Ur Feedback</label>
+        <textarea name="feedback" id="feedback">
+        </textarea>
+        <br> <br>
+        <button type="submit">Submit</button>
+
+    </form>
+</body>
+</html>
